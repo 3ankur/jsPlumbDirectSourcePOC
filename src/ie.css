@@ -1,0 +1,16 @@
+
+.material-icons {font-feature-settings: 'liga'}
+.iebdcrumb { margin-top: 63px; }
+.sticky-top{ width: 100%;position: fixed; top: 0;  z-index: 999;}
+@-moz-document url-prefix() {
+    .breadcrumb {margin-top: 5px;}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .breadcrumbIE {margin-top: 101px;}
+    .iefixflex * {flex: auto!important; }
+    .iewdrop{ width: 199px;}
+    .ReactTable .-pagination { width: 250px; margin-right: 35px; }
+.ReactTable .-previous{ width:55px; position: absolute; bottom: 10px; right: 254px; }
+.ReactTable .-next{ width:55px; position: absolute; bottom: 10px; right: -18px;}
+}

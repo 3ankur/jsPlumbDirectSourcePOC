@@ -1,0 +1,87 @@
+.white-text{
+    color:#FFFFFF;
+}
+.enc_tbl_padding{
+    padding: 5px !important;
+}
+.move_element{
+  cursor: move;
+}
+
+#encounterTable {
+    position: relative!important;
+    /* width: 1300px; */
+    background-color: #FFF;
+    overflow: hidden;
+    border-collapse: collapse;
+
+  }
+
+
+  /*thead*/
+  #encounterTable  thead {
+    position: relative!important;
+    display: block; /*seperates the header from the body allowing it to be positioned*/
+    /* max-width: 1300px; */
+    overflow: visible;
+  }
+  
+  #encounterTable  thead th {
+    /* background-color: #fefeff; */
+    min-width: 90px;
+    height: 32px;
+    border: 1px solid #dee2e6;
+  }
+  
+  #encounterTable  thead tr:first-child th:first-child {/*first cell in the header*/
+    position: relative !important;
+    /*display: block; */ /*seperates the first cell in the header from the header*/
+    background-color: #f7f7f7;
+  }
+
+  /*tbody*/
+  #encounterTable  tbody {
+    position: relative !important;
+    display: block; /*seperates the tbody from the header*/
+    /* width: 1300px; */
+    height: 239px;
+    overflow: auto;
+  }
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(50,50,50,.25);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(50,50,50,.5)
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(50,50,50,.05)
+}
+  
+  #encounterTable  tbody td {
+    background-color: #FFF;
+    min-width: 90px;
+    border: 1px solid #dee2e6; z-index: 23;
+  }
+  
+  #encounterTable  tbody tr td:first-child {  /*the first cell in each tr*/
+    position: relative;
+    height: 40px;
+   background-color: #f7f7f7; 
+   width: 200px ;
+  }
+
+
+  

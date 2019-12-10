@@ -1,0 +1,7 @@
+@import url("glyphicon.css");
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../public/assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('../public/assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../public/assets/fonts/glyphicons-halflings-regular.woff') format('woff2'), url('../public/assets/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../public/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../public/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
